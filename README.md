@@ -1,4 +1,4 @@
-エッヂDiscord部用  
+なんでも実況エッヂ Discord部用  
   
 **・使用方法**
 .envファイルにbot tokenコピペ  
