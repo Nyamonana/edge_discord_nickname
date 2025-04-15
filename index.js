@@ -242,7 +242,7 @@ client.on('messageCreate', async message => {
                 `モード指定が無効\n`+
                 `\`${COMMAND_PREFIX}${SETMODE_COMMAND} 0\` または \`${COMMAND_PREFIX}${SETMODE_COMMAND} random\` : ランダムモード\n` +
                 `\`${COMMAND_PREFIX}${SETMODE_COMMAND} 1\` または \`${COMMAND_PREFIX}${SETMODE_COMMAND} name\` : 表示名ベースモード\n`+
-                `のように指定しなさい`
+                `のように指定`
             );
         }
     }
