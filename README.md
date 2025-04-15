@@ -1,9 +1,9 @@
 エッヂDiscord部用  
   
-・使用方法  
+**・使用方法**
 .envファイルにbot tokenコピペ  
 
-・コマンド  
+**・コマンド**  
 !setmode 0 / !setmode random  
 表示形式：風吹けばイヌ、風吹けばタヌキ  
 
