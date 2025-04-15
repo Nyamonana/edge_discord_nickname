@@ -3,18 +3,18 @@ const fs = require('fs');
 require('dotenv').config();
 
 // --- 設定 ---
-const TARGET_SERVER_ID = '630808399881437254'; // 監視対象サーバーID
-const NICKNAME_FILE_PATH = 'nickname.txt';      // ニックネームリストファイル
-const NICKNAME_ON_LEAVE = '風吹けば名無し';      // VC退出時ニックネーム
-const NAME_MODE_PREFIX = '風吹けば';             // 名前モード接頭辞
-const COMMAND_PREFIX = '!';                     // コマンド接頭辞
-const SETMODE_COMMAND = 'setmode';              // モード設定コマンド
-const DISCORD_NICKNAME_MAX_LENGTH = 32;         // Discordニックネーム最大長
+const TARGET_SERVER_ID = '630808399881437254'; // server ID
+const NICKNAME_FILE_PATH = 'nickname.txt';      // nickname list
+const NICKNAME_ON_LEAVE = '風吹けば名無し';      // default nickname
+const NAME_MODE_PREFIX = '風吹けば';             // name prefix
+const COMMAND_PREFIX = '!';                     // prefix
+const SETMODE_COMMAND = 'setmode';              // mode cange
+const DISCORD_NICKNAME_MAX_LENGTH = 32;         // ニックネーム最大長
 // --- 設定完了 ---
 
 // --- 状態管理 ---
 let currentMode = 'random'; // 'random' or 'name'
-let nicknamesFromFile = []; // ニックネームリスト
+let nicknamesFromFile = []; // name list
 // --- 状態管理完了 ---
 
 // --- 関数 ---
